@@ -1,24 +1,48 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import useWordGame from "./useWordGame.js";
+import "./App.css";
 
 function App() {
+  const {
+    text,
+    handleChange,
+    gameState,
+    inputRef,
+    timer,
+    handleClick,
+    wordCount,
+    speed,
+  } = useWordGame();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <h3>Start Typing below</h3>
+      <textarea
+        name="textarea"
+        className="text-area"
+        value={text}
+        onChange={handleChange}
+        disabled={!gameState}
+        ref={inputRef}
+      />
+      <h2>
+        Time remaining : {timer}
+        <span> seconds</span>
+      </h2>
+      <button onClick={handleClick} disabled={gameState}>
+        Start Game
+      </button>
+      <h3>words typed : {wordCount} </h3>
+      <h3>
+        speed : {speed} <span>wpm</span>
+      </h3>
+      <button
+        onClick={() => {
+          window.location.reload();
+        }}
+      >
+        Reset
+      </button>
     </div>
   );
 }
