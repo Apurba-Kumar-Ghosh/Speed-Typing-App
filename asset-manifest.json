@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Speed-Typing-App/static/css/main.c5328da5.chunk.css",
+    "main.js": "/Speed-Typing-App/static/js/main.5a2a2c7d.chunk.js",
+    "main.js.map": "/Speed-Typing-App/static/js/main.5a2a2c7d.chunk.js.map",
+    "runtime-main.js": "/Speed-Typing-App/static/js/runtime-main.3ce5feb7.js",
+    "runtime-main.js.map": "/Speed-Typing-App/static/js/runtime-main.3ce5feb7.js.map",
+    "static/js/2.01dcb07c.chunk.js": "/Speed-Typing-App/static/js/2.01dcb07c.chunk.js",
+    "static/js/2.01dcb07c.chunk.js.map": "/Speed-Typing-App/static/js/2.01dcb07c.chunk.js.map",
+    "index.html": "/Speed-Typing-App/index.html",
+    "precache-manifest.766c92b08431cd88adca5dce30865ad4.js": "/Speed-Typing-App/precache-manifest.766c92b08431cd88adca5dce30865ad4.js",
+    "service-worker.js": "/Speed-Typing-App/service-worker.js",
+    "static/css/main.c5328da5.chunk.css.map": "/Speed-Typing-App/static/css/main.c5328da5.chunk.css.map",
+    "static/js/2.01dcb07c.chunk.js.LICENSE.txt": "/Speed-Typing-App/static/js/2.01dcb07c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ce5feb7.js",
+    "static/js/2.01dcb07c.chunk.js",
+    "static/css/main.c5328da5.chunk.css",
+    "static/js/main.5a2a2c7d.chunk.js"
+  ]
+}
